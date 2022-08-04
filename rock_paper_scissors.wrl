@@ -1,0 +1,533 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF vp1 Viewpoint {
+	fieldOfView	0.785398
+	jump	TRUE
+	position	-4.5 1 30
+	description	""
+}
+DEF palm Transform {
+	translation	0 0 0
+	children [ 
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+			    }
+
+		    }
+
+		    geometry	Box {
+			    size	9 8 1.5
+		    }
+
+	    }
+
+	    DEF f1joint1 Transform {
+		    translation	-4.5 3 0
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Sphere {
+					radius	1
+				}
+
+			}
+
+			DEF f1arm1 Transform {
+				translation	-2 0 0
+				rotation	0 0 1  1.5708
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	4
+						    radius	0.5
+					    }
+
+				    }
+
+				    DEF f1joint2 Transform {
+					    translation	0 2 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Sphere {
+							}
+
+						}
+
+						DEF f1arm2 Transform {
+							translation	0 2 0
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+									    }
+
+								    }
+
+								    geometry	Cylinder {
+									    height	4
+									    radius	0.5
+								    }
+
+							    }
+
+							    DEF f1joint3 Transform {
+								    translation	0 2 0
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	Sphere {
+										}
+
+									}
+
+									DEF f1arm3 Transform {
+										translation	0 1.5 0
+										children Shape {
+											appearance	Appearance {
+												material	Material {
+												}
+
+											}
+
+											geometry	Cylinder {
+												height	3
+												radius	0.5
+											}
+
+										}
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+
+	    DEF f2joint1 Transform {
+		    translation	-4.5 1 0
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Sphere {
+					radius	1
+				}
+
+			}
+
+			DEF f2arm1 Transform {
+				translation	-2 0 0
+				rotation	0 0 1  1.5708
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	4
+						    radius	0.5
+					    }
+
+				    }
+
+				    DEF f2joint2 Transform {
+					    translation	0 2 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Sphere {
+							}
+
+						}
+
+						DEF f2arm2 Transform {
+							translation	0 2 0
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+									    }
+
+								    }
+
+								    geometry	Cylinder {
+									    height	4
+									    radius	0.5
+								    }
+
+							    }
+
+							    DEF f2joint3 Transform {
+								    translation	0 2 0
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	Sphere {
+										}
+
+									}
+
+									DEF f2arm3 Transform {
+										translation	0 1.5 0
+										children Shape {
+											appearance	Appearance {
+												material	Material {
+												}
+
+											}
+
+											geometry	Cylinder {
+												height	3
+												radius	0.5
+											}
+
+										}
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+
+	    DEF f3joint1 Transform {
+		    translation	-4.5 -1 0
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Sphere {
+					radius	1
+				}
+
+			}
+
+			DEF f3arm1 Transform {
+				translation	-2 0 0
+				rotation	0 0 1  1.5708
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	4
+						    radius	0.5
+					    }
+
+				    }
+
+				    DEF f3joint2 Transform {
+					    translation	0 2 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Sphere {
+							}
+
+						}
+
+						DEF f3arm2 Transform {
+							translation	0 2 0
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+									    }
+
+								    }
+
+								    geometry	Cylinder {
+									    height	4
+									    radius	0.5
+								    }
+
+							    }
+
+							    DEF f3joint3 Transform {
+								    translation	0 2 0
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	Sphere {
+										}
+
+									}
+
+									DEF f3arm3 Transform {
+										translation	0 1.5 0
+										children Shape {
+											appearance	Appearance {
+												material	Material {
+												}
+
+											}
+
+											geometry	Cylinder {
+												height	3
+												radius	0.5
+											}
+
+										}
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+
+	    DEF f4joint1 Transform {
+		    translation	-4.5 -3 0
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Sphere {
+					radius	1
+				}
+
+			}
+
+			DEF f4arm1 Transform {
+				translation	-2 0 0
+				rotation	0 0 1  1.5708
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	4
+						    radius	0.5
+					    }
+
+				    }
+
+				    DEF f4joint2 Transform {
+					    translation	0 2 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Sphere {
+							}
+
+						}
+
+						DEF f4arm2 Transform {
+							translation	0 2 0
+							children [ 
+							    Shape {
+								    appearance	Appearance {
+									    material	Material {
+									    }
+
+								    }
+
+								    geometry	Cylinder {
+									    height	4
+									    radius	0.5
+								    }
+
+							    }
+
+							    DEF f4joint3 Transform {
+								    translation	0 2 0
+								    children [ 
+									Shape {
+										appearance	Appearance {
+											material	Material {
+											}
+
+										}
+
+										geometry	Sphere {
+										}
+
+									}
+
+									DEF f4arm3 Transform {
+										translation	0 1.5 0
+										children Shape {
+											appearance	Appearance {
+												material	Material {
+												}
+
+											}
+
+											geometry	Cylinder {
+												height	3
+												radius	0.5
+											}
+
+										}
+									}
+								    ]
+							    }
+							]
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+
+	    DEF f5joint1 Transform {
+		    translation	3 4 0
+		    children [ 
+			Shape {
+				appearance	Appearance {
+					material	Material {
+					}
+
+				}
+
+				geometry	Sphere {
+					radius	1
+				}
+
+			}
+
+			DEF f5arm1 Transform {
+				translation	0 1.5 0
+				children [ 
+				    Shape {
+					    appearance	Appearance {
+						    material	Material {
+						    }
+
+					    }
+
+					    geometry	Cylinder {
+						    height	3
+						    radius	0.5
+					    }
+
+				    }
+
+				    DEF f5joint2 Transform {
+					    translation	0 1.5 0
+					    children [ 
+						Shape {
+							appearance	Appearance {
+								material	Material {
+								}
+
+							}
+
+							geometry	Sphere {
+								radius	1
+							}
+
+						}
+
+						Transform {
+							translation	0 1 0
+							children Shape {
+								appearance	Appearance {
+									material	Material {
+									}
+
+								}
+
+								geometry	Cylinder {
+									radius	0.5
+								}
+
+							}
+						}
+					    ]
+				    }
+				]
+			}
+		    ]
+	    }
+	]
+}

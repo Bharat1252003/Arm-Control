@@ -1,0 +1,83 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF greenlight Transform {
+	translation	0 -0.5 0.6
+	children [ 
+	    DEF greendl DirectionalLight {
+	    }
+
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    diffuseColor	0.0178128 0.5 0.00240061
+			    }
+
+		    }
+
+		    geometry	Sphere {
+		    }
+
+	    }
+	]
+}
+DEF yellowlight Transform {
+	translation	0 1.45 0.6
+	children [ 
+	    DEF yellowdl DirectionalLight {
+	    }
+
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    diffuseColor	0.6 0.575989 0.104119
+			    }
+
+		    }
+
+		    geometry	Sphere {
+		    }
+
+	    }
+	]
+}
+DEF redlight Transform {
+	translation	0 3.4 0.6
+	children [ 
+	    DEF reddl DirectionalLight {
+	    }
+
+	    Shape {
+		    appearance	Appearance {
+			    material	Material {
+				    diffuseColor	0.6 0.0238112 0.0121174
+			    }
+
+		    }
+
+		    geometry	Sphere {
+		    }
+
+	    }
+	]
+}
+DEF bbox Transform {
+	translation	0 1.5 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	0.8 0.58981 0.00333891
+			}
+
+		}
+
+		geometry	Box {
+			size	2 6 2
+		}
+
+	}
+}

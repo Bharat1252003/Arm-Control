@@ -1,0 +1,37 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF cursor Transform {
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	0 1 1
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.25
+		}
+
+	}
+}
+DEF target Transform {
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	0.8 0.184935 0.0119172
+			}
+
+		}
+
+		geometry	Sphere {
+			radius	0.25
+		}
+
+	}
+}

@@ -1,0 +1,49 @@
+#VRML V2.0 utf8
+
+#Created with V-Realm Builder v2.0
+#Integrated Data Systems Inc.
+#www.ids-net.com
+
+
+DEF outer Transform {
+	translation	-1.82572 2.25874 0
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	1 0.0585462 0.0195582
+			}
+
+		}
+
+		geometry	Sphere {
+		}
+
+	}
+}
+DEF centre Transform {
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+			}
+
+		}
+
+		geometry	Sphere {
+		}
+
+	}
+}
+DEF Cursor Transform {
+	children Shape {
+		appearance	Appearance {
+			material	Material {
+				diffuseColor	0.00417364 1 0.239349
+			}
+
+		}
+
+		geometry	Sphere {
+		}
+
+	}
+}
